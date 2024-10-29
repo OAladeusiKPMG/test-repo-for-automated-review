@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "Password12",
+    "database": "EncoreDB",
+    "server": "DESKTOP-5MJSF7I\\MSSQLSERVER2",
+    "dialect": "mssql",
+    "operatorsAliases": false,
+    "port": "60800"
+  },
+  "test": {
+    "username": "sa",
+    "password": "Password12",
+    "database": "EncoreDB",
+    "server": "DESKTOP-5MJSF7I\\MSSQLSERVER2",
+    "dialect": "mssql",
+    "operatorsAliases": false,
+    "port": "60800"
+  },
+  "production": {
+    "username": "sa",
+    "password": "Password12",
+    "database": "EncoreDB",
+    "server": "DESKTOP-5MJSF7I\\MSSQLSERVER2",
+    "dialect": "mssql",
+    "operatorsAliases": false,
+    "port": "60800"
+  }
+}

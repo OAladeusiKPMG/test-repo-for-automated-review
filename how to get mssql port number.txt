@@ -1,0 +1,6 @@
+connecting using mssql query builder
+https://stackoverflow.com/questions/46747967/sql-server-connection-issue-from-node-js-application
+
+How to get port number of mssql
+
+open "sql server configuration manager"

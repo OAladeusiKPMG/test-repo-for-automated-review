@@ -1,0 +1,28 @@
+getAllUsers - array of all users that have been profiled (please include there roles)
+getAllStaff - from local active directory (view table connected to active directory)
+getEmailsOfAllStaff -- array of emails only from active directory view
+getStaffProfile ? Id=StaffId  - array of single staff object
+
+
+getRoles ---- array of role object (name and id)
+updateUserRole ? UserId, NewRoleId, OldRoleId  | return array of the new profile object as singleton
+updateUserProfile ? passing an object of the new profile of the user
+deleteUser? UserId | return array of the user that was removed.
+9 - searchUser?keyword | return array of pagginated user objects.
+
+
+
+use cai_db
+go
+
+delete Users;
+delete Roles;
+delete UserRoles;
+delete Templates;
+delete Statuses;
+delete Staffs;
+delete Candidates;
+
+ 
+
+
