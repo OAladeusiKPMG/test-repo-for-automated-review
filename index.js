@@ -1,5 +1,5 @@
 //references
-const dotenv =require('dotenv');
+const dotenv = require("dotenv");
 //initialize dotenv to parse .env variables to system environment variables
 dotenv.config();
 // import process from 'process';
@@ -12,7 +12,7 @@ const bodyParser = require("body-parser");
 //const moment = require("moment");
 //for evn variables
 
-const moment = require("moment")
+const moment = require("moment");
 
 //controllers import
 const UserController = require("./controllers/UserController");
@@ -46,7 +46,7 @@ app.use("/nomination", NominationController);
 
 //file downloaders
 
-app.get('/files/cards/:id', function (req, res) {
+app.get("/files/cards/:id", function (req, res) {
   const id = req.params.id;
   const file = `${__dirname}/files/cards/${id}`;
   res.download(file); // Set disposition and send it.
@@ -61,9 +61,10 @@ app.get("/test", async (req, res, next) => {
 //execute jobs
 cronJobber.RunCorn();
 
-console.log(moment().format("MMM.DD"))
-
+console.log(moment().format("MMM.DD"));
 
 //launch app on port 3000
-const port= process.env.PORT
+const port = process.env.PORT;
+const port2 = process.env.PORT2;
+port5 = process.env.PORT5;
 app.listen(port, () => console.log(`server running on port ${port}.`));
