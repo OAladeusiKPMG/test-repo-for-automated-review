@@ -67,4 +67,6 @@ console.log(moment().format("MMM.DD"));
 const port = process.env.PORT;
 const port2 = process.env.PORT2;
 port5 = process.env.PORT5;
+port5 = process.env.PORT5;
+port6 = process.env.PORT5;
 app.listen(port, () => console.log(`server running on port ${port}.`));
